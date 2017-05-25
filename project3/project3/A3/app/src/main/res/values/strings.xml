@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">A3</string>
+    <string name="permission">edu.uic.cs478.project3</string>
+    <string name="permissionDesc">Send ordered broadcast</string>
+
+    <string-array name="nbateams">
+        <item name="GSV"> Golden State Warriors </item>
+        <item name="CC"> Cleveland Cavaliers </item>
+        <item name="LAL"> Los Angeles Lakers </item>
+        <item name="SAS"> San Antonio Spurs </item>
+        <item name="NK"> New York Knicks </item>
+        <item name="CB"> Chicago Bulls </item>
+    </string-array>
+    
+    <string-array name="nbateamswebsites">
+        <item name="GSV">http://www.nba.com/warriors/</item>
+        <item name="CC"> http://www.nba.com/cavaliers/ </item>
+        <item name="LAL"> http://www.nba.com/lakers/ </item>
+        <item name="SAS"> http://www.nba.com/spurs/ </item>
+        <item name="NK"> http://www.nba.com/knicks/ </item>
+        <item name="CB"> http://www.nba.com/bulls/ </item>
+    </string-array>
+
+    <string-array name="mlbteams">
+        <item name="CC"> Chicago Cubs </item>
+        <item name="NY"> New York Yankees </item>
+        <item name="LAD"> Los Angeles Dodgers </item>
+        <item name="TBJ"> Toronto Blue Jays </item>
+        <item name="CI"> Clevelend Indians </item>
+        <item name="BRS"> Boston Red Sox </item>
+    </string-array>
+
+    <string-array name="mlbteamswebsites">
+        <item name="CC"> http://chicago.cubs.mlb.com/ </item>
+        <item name="NY"> http://newyork.yankees.mlb.com/ </item>
+        <item name="LAD"> http://losangeles.dodgers.mlb.com/ </item>
+        <item name="TBJ"> http://toronto.bluejays.mlb.com/ </item>
+        <item name="CI"> http://cleveland.indians.mlb.com/ </item>
+        <item name="BRS"> http://boston.redsox.mlb.com/ </item>
+    </string-array>
+
+</resources>

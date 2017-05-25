@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="spring2017.cs478.raghavendra.a2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name="Receiver"
+            android:permission="@string/permission">
+            <intent-filter android:priority="999">
+                <action android:name="NBA"/>
+                <action android:name="MLB"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
