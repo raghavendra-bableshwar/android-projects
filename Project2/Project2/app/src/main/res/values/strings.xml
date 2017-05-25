@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="createPlaylist">Create Playlist</string>
+    <string-array name="songList">
+        <item name="DLMD"> The Beatles - Don\'t Let Me Down </item>
+        <item name="LWM"> Live With Me (Mono / Remastered) </item>
+        <item name="SLTS"> Nirvana - Smells Like Teen Spirit</item>
+        <item name="NR">  Guns N\' Roses - November Rain </item>
+        <item name="ONE"> Metallica - One [Official Music Video] </item>
+        <item name="PFL">  Pink Floyd - Comfortably numb </item>
+    </string-array>
+
+    <string-array name="songURLList">
+        <item name="DLMD"> https://www.youtube.com/watch?v=NCtzkaL2t_Y </item>
+        <item name="LWM"> https://www.youtube.com/watch?v=lOYnjRs-QHs </item>
+        <item name="SLTS"> https://www.youtube.com/watch?v=hTWKbfoikeg </item>
+        <item name="NR"> https://www.youtube.com/watch?v=8SbUC-UaAxE </item>
+        <item name="ONE"> https://www.youtube.com/watch?v=WM8bTdBs-cw </item>
+        <item name="PFL"> https://www.youtube.com/watch?v=_FrOQC-zEog </item>
+    </string-array>
+
+    <string-array name="songCoverImageList">
+        <item name="DLMD"> R.drawable.beatles_cover </item>
+        <item name="LWM"> R.drawable.rolling_stones_cover </item>
+        <item name="SLTS"> R.drawable.nirvana_cover</item>
+        <item name="NR"> R.drawable.guns_n_roses_cover</item>
+        <item name="ONE"> R.drawable.metallica_cover</item>
+        <item name="PFL"> R.drawable.pink_floyd_cover</item>
+    </string-array>
+
+    <string-array name="songWikiURLList">
+        <item name="DLMD">https://en.wikipedia.org/wiki/Don\'t_Let_Me_Down_(Beatles_song)</item>
+        <item name="LWM"> https://en.wikipedia.org/wiki/Live_with_Me </item>
+        <item name="SLTS"> https://en.wikipedia.org/wiki/Smells_Like_Teen_Spirit </item>
+        <item name="NR"> https://en.wikipedia.org/wiki/November_Rain </item>
+        <item name="ONE"> https://en.wikipedia.org/wiki/One_(Metallica_song) </item>
+        <item name="PFL"> https://en.wikipedia.org/wiki/Comfortably_Numb </item>
+    </string-array>
+
+    <string-array name="artistWikiURLList">
+        <item name="DLMD">https://en.wikipedia.org/wiki/The_Beatles </item>
+        <item name="LWM"> https://en.wikipedia.org/wiki/The_Rolling_Stones </item>
+        <item name="SLTS"> https://en.wikipedia.org/wiki/Nirvana_(band) </item>
+        <item name="NR"> https://en.wikipedia.org/wiki/Guns_N\'_Roses </item>
+        <item name="ONE"> https://en.wikipedia.org/wiki/Metallica </item>
+        <item name="PFL"> https://en.wikipedia.org/wiki/Pink_Floyd </item>
+    </string-array>
+
+</resources>

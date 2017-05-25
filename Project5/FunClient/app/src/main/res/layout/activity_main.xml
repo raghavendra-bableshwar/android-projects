@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="spring2017.cs478.raghavendra.funclient.MainActivity">
+
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="33dp"
+        android:layout_marginTop="59dp"
+        android:text="Play clip 1"
+        android:onClick="onPlay1Clicked"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play1"
+        android:layout_below="@+id/play1"
+        android:layout_marginTop="45dp"
+        android:text="Play clip 2"
+        android:onClick="onPlay2Clicked"/>
+
+    <Button
+        android:id="@+id/play3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play2"
+        android:layout_below="@+id/play2"
+        android:layout_marginTop="39dp"
+        android:text="Play clip 3"
+        android:onClick="onPlay3Clicked"/>
+
+    <Button
+        android:id="@+id/play4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play3"
+        android:layout_below="@+id/play3"
+        android:layout_marginTop="40dp"
+        android:text="Play clip 4"
+        android:onClick="onPlay4Clicked"/>
+
+    <Button
+        android:id="@+id/play5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/play4"
+        android:layout_below="@+id/play4"
+        android:layout_marginTop="37dp"
+        android:text="Play clip 5"
+        android:onClick="onPlay5Clicked"/>
+
+    <Button
+        android:id="@+id/pic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/play2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="18dp"
+        android:text="Pic 1"
+        android:onClick="onPic1Clicked"/>
+
+    <Button
+        android:id="@+id/pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pic1"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@+id/pic1"
+        android:text="Pic 2"
+        android:onClick="onPic2Clicked"/>
+
+    <Button
+        android:id="@+id/pic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pic1"
+        android:layout_below="@+id/pic1"
+        android:layout_marginTop="16dp"
+        android:text="Pic 3"
+        android:onClick="onPic3Clicked"/>
+
+    <Button
+        android:id="@+id/pic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pic2"
+        android:layout_alignTop="@+id/pic3"
+        android:text="Pic 4"
+        android:onClick="onPic4Clicked"/>
+
+    <Button
+        android:id="@+id/pic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pic3"
+        android:layout_below="@+id/play2"
+        android:text="pic 5"
+        android:onClick="onPic5Clicked"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pic5"
+        android:layout_below="@+id/play3"
+        android:layout_marginStart="19dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignEnd="@+id/pic4" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pause"
+        android:onClick="onPauseClicked"
+        android:layout_marginEnd="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/stop" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onStopClicked"/>
+
+    <Button
+        android:id="@+id/logs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logs"
+        android:layout_alignBaseline="@+id/pause"
+        android:layout_alignBottom="@+id/pause"
+        android:layout_toStartOf="@+id/pause"
+        android:layout_marginEnd="14dp"
+        android:onClick="onLogsClicked"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="coverImageIds">
+        <item>@drawable/beatles_cover</item>
+        <item>@drawable/rolling_stones_cover</item>
+        <item>@drawable/nirvana_cover</item>
+        <item>@drawable/guns_n_roses_cover</item>
+        <item>@drawable/metallica_cover</item>
+        <item>@drawable/pink_floyd_cover</item>
+    </integer-array>
+</resources>
